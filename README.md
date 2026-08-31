@@ -4,7 +4,8 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2608.07003-b31b1b.svg)](https://arxiv.org/abs/2608.07003)
 [![Hugging Face Paper](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Paper-FFD21E)](https://huggingface.co/papers/2608.07003)
 
-Official implementation of **HRDiT**.
+Official implementation of **HRDiT**. Our project page is at
+[zylwithxy.github.io/HRDiT-page](https://zylwithxy.github.io/HRDiT-page/).
 
 <p align="center">
   <img src="assets/fig3_spa.png" width="90%" alt="The bundle and slide operations in SPA">
@@ -25,6 +26,8 @@ Official implementation of **HRDiT**.
   thanks for their work!
 - **[2026-08-28]** 📺 The five-minute ECCV presentation is on
   [YouTube](https://www.youtube.com/watch?v=sW20BTHyXgE).
+- **[2026-08-31]** 🌐 The [project page](https://zylwithxy.github.io/HRDiT-page/)
+  is live, with 4K samples and FLUX.1-dev comparisons.
 
 ## Overview
 
