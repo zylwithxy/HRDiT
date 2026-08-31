@@ -1,8 +1,18 @@
 # HRDiT: Training-Free High-Resolution Image Generation with Off-the-Shelf Diffusion Transformer Models
 
+[![ECCV 2026](https://img.shields.io/badge/ECCV-2026_🇸🇪-blueviolet)](https://eccv.ecva.net/)
 [![arXiv](https://img.shields.io/badge/arXiv-2608.07003-b31b1b.svg)](https://arxiv.org/abs/2608.07003)
+[![Hugging Face Paper](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Paper-FFD21E)](https://huggingface.co/papers/2608.07003)
 
 Official implementation of **HRDiT**.
+
+## 🔔 News
+
+- **[2026-08-06]** 🎉 Initial release of the HRDiT code.
+- **[2026-08-27]** The Remyx AI team has reimplemented HRDiT as a diffusers
+  pipeline at
+  [remyxai/hrdit-flux-modular](https://huggingface.co/remyxai/hrdit-flux-modular),
+  thanks for their work!
 
 ## Overview
 
@@ -75,6 +85,13 @@ strings):
 python inference.py --prompt_file prompts.txt --num_prompts 10
 ```
 
+### Higher image quality
+
+HAP only shortens generation; SPA is what restores spatial structure. Setting
+`scope_plan=None` in the `pipe(...)` call of `inference.py` turns HAP off at
+every step while SPA still runs: attention stays dense, generation takes
+longer, and image quality is better.
+
 ### Hardware
 
 Generation runs on a single GPU; the pipeline does not shard the model across
@@ -109,23 +126,14 @@ To derive a plan for a different attention budget, see
 profiling and plan-search pipeline. Its output drops straight into
 `--scope_plan`.
 
-## Community
-
-The Remyx AI team has reimplemented HRDiT as a diffusers pipeline at
-[remyxai/hrdit-flux-modular](https://huggingface.co/remyxai/hrdit-flux-modular),
-thanks for their work!
-
 ## Citation
 
 ```bibtex
-@misc{xue2026hrdittrainingfreehighresolutionimage,
-      title={HRDiT: Training-Free High-Resolution Image Generation with Off-the-Shelf Diffusion Transformer Models}, 
-      author={Yu Xue and Haoxuan Qu and Zhuoling Li and Hongbin Xu and Jianxiong Yin and Simon See and Hossein Rahmani and Jun Liu},
-      year={2026},
-      eprint={2608.07003},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2608.07003}, 
+@inproceedings{xue2026hrdit,
+  title={{HRDiT}: Training-Free High-Resolution Image Generation with Off-the-Shelf Diffusion Transformer Models},
+  author={Xue, Yu and Qu, Haoxuan and Li, Zhuoling and Xu, Hongbin and Yin, Jianxiong and See, Simon and Rahmani, Hossein and Liu, Jun},
+  booktitle={European Conference on Computer Vision (ECCV)},
+  year={2026}
 }
 ```
 
