@@ -1,14 +1,24 @@
 # HRDiT: Training-Free High-Resolution Image Generation with Off-the-Shelf Diffusion Transformer Models
 
-[![ECCV 2026](https://img.shields.io/badge/ECCV-2026_🇸🇪-blueviolet)](https://eccv.ecva.net/)
+[![ECCV 2026](https://img.shields.io/badge/ECCV-2026_🇸🇪-blueviolet)](https://eccv.ecva.net/virtual/2026/poster/4252)
 [![arXiv](https://img.shields.io/badge/arXiv-2608.07003-b31b1b.svg)](https://arxiv.org/abs/2608.07003)
 [![Hugging Face Paper](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Paper-FFD21E)](https://huggingface.co/papers/2608.07003)
 
 Official implementation of **HRDiT**.
 
+<p align="center">
+  <img src="assets/fig3_spa.png" width="90%" alt="The bundle and slide operations in SPA">
+  <br>
+  <em>SPA: the bundle and slide operations (T = 7, N = 3).</em>
+</p>
+
 ## 🔔 News
 
 - **[2026-08-06]** 🎉 Initial release of the HRDiT code.
+- **[2026-08-16]** SPA and HAP are available as ComfyUI nodes in
+  [wildminder/ComfyUI-DyPE](https://github.com/wildminder/ComfyUI-DyPE):
+  [SPA](https://comfy.icu/node/SPA), [HAP](https://comfy.icu/node/HAP) and
+  [HAP Calibrate](https://comfy.icu/node/HAPCalibrate), thanks for their work!
 - **[2026-08-27]** The Remyx AI team has reimplemented HRDiT as a diffusers
   pipeline at
   [remyxai/hrdit-flux-modular](https://huggingface.co/remyxai/hrdit-flux-modular),
