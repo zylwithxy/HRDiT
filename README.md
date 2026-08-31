@@ -3,6 +3,7 @@
 [![ECCV 2026](https://img.shields.io/badge/ECCV-2026_🇸🇪-blueviolet)](https://eccv.ecva.net/virtual/2026/poster/4252)
 [![arXiv](https://img.shields.io/badge/arXiv-2608.07003-b31b1b.svg)](https://arxiv.org/abs/2608.07003)
 [![Hugging Face Paper](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Paper-FFD21E)](https://huggingface.co/papers/2608.07003)
+[![Project Page](https://img.shields.io/badge/Project-Page-brightgreen)](https://zylwithxy.github.io/HRDiT-page/)
 
 Official implementation of **HRDiT**. Our project page is at
 [zylwithxy.github.io/HRDiT-page](https://zylwithxy.github.io/HRDiT-page/).
