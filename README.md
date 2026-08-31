@@ -15,14 +15,16 @@ Official implementation of **HRDiT**.
 ## 🔔 News
 
 - **[2026-08-06]** 🎉 Initial release of the HRDiT code.
-- **[2026-08-16]** SPA and HAP are available as ComfyUI nodes in
+- **[2026-08-16]** ⚙️ SPA and HAP are available as ComfyUI nodes in
   [wildminder/ComfyUI-DyPE](https://github.com/wildminder/ComfyUI-DyPE):
   [SPA](https://comfy.icu/node/SPA), [HAP](https://comfy.icu/node/HAP) and
   [HAP Calibrate](https://comfy.icu/node/HAPCalibrate), thanks for their work!
-- **[2026-08-27]** The Remyx AI team has reimplemented HRDiT as a diffusers
+- **[2026-08-27]** 🤗 The Remyx AI team has reimplemented HRDiT as a diffusers
   pipeline at
   [remyxai/hrdit-flux-modular](https://huggingface.co/remyxai/hrdit-flux-modular),
   thanks for their work!
+- **[2026-08-28]** 📺 The five-minute ECCV presentation is on
+  [YouTube](https://www.youtube.com/watch?v=sW20BTHyXgE).
 
 ## Overview
 
