@@ -31,7 +31,7 @@ Official implementation of **HRDiT**. Our project page is at
   is live, with 4K samples and FLUX.1-dev comparisons.
 
 <p align="center">
-  <img src="assets/gallery/lavender.jpg" width="32%" alt="Lavender rows at dusk, 4096x4096">
+  <img src="assets/gallery/canyon.jpg" width="32%" alt="Desert canyon at golden hour, 4096x4096">
   <img src="assets/gallery/window.jpg" width="32%" alt="Gothic window and stained glass, 4096x4096">
   <img src="assets/gallery/coral.jpg" width="32%" alt="Coral reef in shallow water, 4096x4096">
   <br>
